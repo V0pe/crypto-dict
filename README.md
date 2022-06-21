@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# AIR POLLUTION
+# CRYPTO DICT
 
-> This is a mobile web app the provides daily updates on the air pollution globally. The data is sourced from the [Air pollution](https://openweathermap.org/api/air-pollution). The project is build with React a JavaScript library, and Redux for state management. 
+> This is a mobile web app the provides daily updates on the cryto price. The data is sourced from the [Air pollution](https://openweathermap.org/api/air-pollution). The project is build with React a JavaScript library, and Redux for state management. 
 
 
 ## Built With
@@ -15,13 +15,13 @@
 
 ## Live Demo
 
-[Checkout the live version](https://reverent-hoover-d8f9a0.netlify.app/)
+[Checkout the live version]()
 
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 - Open your terminal
-- Clone the repository: `git@github.com:V0pe/API-POLLUTION-WEBSITE.git`
+- Clone the repository: `git@github.com:V0pe/crypto-dict.git`
 - Cd into 
 - Run npm install to install dependencies
 - Run npm start to run the app on the browser
@@ -37,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/V0pe/API-POLLUTION-WEBSITE/issues).
+Feel free to check the [issues page](https://github.com/V0pe/crypto-dict/issues).
 
 
 ## Show your support
