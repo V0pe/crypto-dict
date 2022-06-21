@@ -1,15 +1,12 @@
 import React from 'react';
 import LogoArea from '../HeroArea';
-// import PropTypes from 'prop-types'
 
 function Homepage() {
   return (
     <section>
-      <LogoArea logotext="Crypto" title="Crypto Market Analysis" />
+      <LogoArea logotext="Crypto" title="Major Crypto Markets" />
     </section>
   );
 }
-
-// Homepage.propTypes = {}
 
 export default Homepage;
