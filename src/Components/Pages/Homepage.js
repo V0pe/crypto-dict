@@ -1,11 +1,11 @@
 import React from 'react';
-import HeroArea from '../HeroArea';
+import LogoArea from '../HeroArea';
 // import PropTypes from 'prop-types'
 
 function Homepage() {
   return (
     <section>
-      <HeroArea />
+      <LogoArea logotext="Crypto" title="Crypto Market Analysis" />
     </section>
   );
 }

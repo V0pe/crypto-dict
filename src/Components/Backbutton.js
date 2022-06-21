@@ -1,18 +1,22 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
-// import PropTypes from 'prop-types'
+import { useNavigate } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 function Backbutton({ text }) {
-  const history = useHistory();
+  const history = useNavigate();
   const back = () => {
-    history.push('/');
+    history('/');
   };
 
   return (
     <div>
-      <button type="button" className="logoButton" onClick={back}>{text}</button>
+      <button type="button" className="logoButton" onClick={back}><h1>{text}</h1></button>
     </div>
   );
 }
+
+Backbutton.propTypes = ({
+  text: PropTypes.string,
+}).isRequired;
 
 export default Backbutton;

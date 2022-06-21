@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Backbutton from './Backbutton';
 
-function HeroArea({ logotext, title }) {
+function LogoArea({ logotext, title }) {
   return (
     <header>
       <Backbutton text={logotext} />
@@ -11,9 +11,9 @@ function HeroArea({ logotext, title }) {
   );
 }
 
-HeroArea.propTypes = ({
+LogoArea.propTypes = ({
   title: PropTypes.string,
   logotext: PropTypes.string,
 }).isRequired;
 
-export default HeroArea;
+export default LogoArea;
