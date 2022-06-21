@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import LogoArea from '../HeroArea';
-import FilterPrice from './FilterInput';
+import FilterPrice from '../FilterInput';
 
 function Homepage() {
   const [InputPrice, SetPriceInput] = useState(30);
