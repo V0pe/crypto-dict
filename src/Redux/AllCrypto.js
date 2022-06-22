@@ -1,13 +1,14 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
-const url = 'https://rest.coinapi.io/v1/assets?apikey=';
-const limit = '100';
-const APIkey = 'D6D53E7E-A4A1-4ACC-B5BE-69600210DD7A';
+// const url = 'https://rest.coinapi.io/v1/assets/';
+// const Asset_id = 'BTC';
+// const APIkey = '';
+const assetId = 'BTC,ETH,USD,DOGE,';
 
 export const FetchCryptos = createAsyncThunk(
   'cryptos/FetchCryptos',
   async () => {
-    const res = await fetch(`${url + APIkey}&limit=${limit}`);
+    const res = await fetch(`https://rest.coinapi.io/v1/assets/?apikey=A4892EC1-D20D-41AE-8637-08E7239DB03D&filter_asset_id=${assetId}`);
     const data = await res.json();
     const coinArray = [];
     data.map((element) => {
