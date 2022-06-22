@@ -8,7 +8,7 @@ const assetId = 'BTC,ETH,USD,DOGE,';
 export const FetchCryptos = createAsyncThunk(
   'cryptos/FetchCryptos',
   async () => {
-    const res = await fetch(`https://rest.coinapi.io/v1/assets/?apikey=D905757A-EF16-4536-B405-7B137D3E1D58&filter_asset_id=${assetId}`);
+    const res = await fetch(`https://rest.coinapi.io/v1/assets/?apikey=A4892EC1-D20D-41AE-8637-08E7239DB03D&filter_asset_id=${assetId}`);
     const data = await res.json();
     const coinArray = [];
     data.map((element) => {
