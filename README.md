@@ -2,7 +2,7 @@
 
 # CRYPTO DICT
 
-> This is a mobile web app the provides daily updates on the cryto price. The data is sourced from the [Air pollution](https://openweathermap.org/api/air-pollution). The project is build with React a JavaScript library, and Redux for state management. 
+> This is a mobile web app the provides daily updates on the cryto price. The data is sourced from the [Cryptocurrency](https://docs.coinapi.io/). The project is build with React a JavaScript library, and Redux for state management. 
 
 
 ## Built With

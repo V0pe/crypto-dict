@@ -4,7 +4,7 @@ import Backbutton from './Backbutton';
 
 function LogoArea({ logotext, title }) {
   return (
-    <header>
+    <header className="header">
       <Backbutton text={logotext} />
       <h1>{title}</h1>
     </header>

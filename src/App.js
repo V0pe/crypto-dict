@@ -21,7 +21,7 @@ function App() {
   ));
 
   return (
-    <div>
+    <div className="body-container">
       <Routes>
         <Route exact path="/" element={<Homepage />} />
         { routes }

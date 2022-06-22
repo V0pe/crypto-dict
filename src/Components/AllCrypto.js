@@ -6,17 +6,17 @@ function AllCrypto({ coins }) {
   const url = '/';
   return (
     <section>
-      <ul>
+      <ul className="coin-container">
         {coins.map((coin) => (
-          <li key={coin.id}>
+          <li key={coin.id} className="coin">
             <Link to={`${url}${coin.id}`}>
               <h4>{coin.name}</h4>
               <span>{coin.id}</span>
               <h5>
-                PRICE
-                <br />
+                PRICE:
                 {' '}
-                {coin.price}
+                $
+                {coin.price.toFixed(4)}
 
               </h5>
             </Link>
