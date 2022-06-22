@@ -11,6 +11,7 @@ function App() {
   useEffect(() => {
     dispatch(FetchCryptos());
   }, [dispatch]);
+
   return (
     <div>
       <Routes>

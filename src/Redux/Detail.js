@@ -12,9 +12,9 @@ export const FetchDetails = createAsyncThunk(
         name: element.name,
         price: element.price_usd,
         volume_a: element.volume_1day_usd,
-        source: `CoinApi`,
-        volume_b:element.volume_1hrs_usd,
-        volume_c:element.volume_mth_usd,
+        source: 'CoinApi',
+        volume_b: element.volume_1hrs_usd,
+        volume_c: element.volume_mth_usd,
       };
       coinArray.push(coin);
       return coinArray;
