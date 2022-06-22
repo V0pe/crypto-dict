@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the snpashot correctly 1`] = `
+<div>
+  <button
+    className="logoButton"
+    onClick={[Function]}
+    type="button"
+  >
+    <h1>
+      <img
+        alt="logo"
+        className="app-logo"
+        src="cryptocurrencies.png"
+      />
+    </h1>
+  </button>
+</div>
+`;

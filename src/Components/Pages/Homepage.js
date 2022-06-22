@@ -4,9 +4,10 @@ import LogoArea from '../HeroArea';
 import FilterPrice from '../FilterInput';
 import AllCrypto from '../AllCrypto';
 import { selectCryptos } from '../../Redux/AllCrypto';
+import './pages.css';
 
 function Homepage() {
-  const [InputPrice, SetPriceInput] = useState(30);
+  const [InputPrice, SetPriceInput] = useState(0);
   const Pricechangehandler = ({ target }) => {
     SetPriceInput(target.value);
   };
@@ -15,7 +16,7 @@ function Homepage() {
 
   return (
     <section>
-      <LogoArea logotext="Crypto" title="Major Crypto Markets" />
+      <LogoArea logotext="CRYPTO" title="Major Crypto Markets" />
       <FilterPrice value={InputPrice} handlePrice={Pricechangehandler} />
       <AllCrypto coins={cryptosList} />
     </section>

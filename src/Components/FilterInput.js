@@ -12,6 +12,7 @@ const FilterPrice = ({ value, handlePrice }) => (
       max="9999999999"
       value={value}
       onChange={handlePrice}
+      placeholder="0"
     />
     {' USD($)'}
   </div>
