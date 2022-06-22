@@ -15,7 +15,11 @@
 
 ## Live Demo
 
-[Checkout the live version]()
+[Checkout the live version](https://cryptosprice.netlify.app/)
+
+## Recording
+
+[Checkout the recording](https://www.loom.com/share/36720bbfade74ac9b01182d836e15db1)
 
 
 ## Getting Started
