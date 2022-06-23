@@ -1,0 +1,125 @@
+:root {
+  --primary: #ac3763;
+  --secondary: #fa498d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+/* Header */
+header.header {
+  background-image: url("../../Assets/world.png");
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary);
+  padding: 2% 5%;
+  color: white;
+  align-items: center;
+}
+
+header button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+header button h1 {
+  color: white;
+  background-color: var(--primary);
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.app-logo {
+  width: 4vw;
+}
+
+header.header h1 {
+  font-size: 2rem;
+}
+
+.price-filter {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 1rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.price-filter input {
+  width: 25rem;
+  height: 2.5rem;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+.coin-container {
+  width: 100%;
+  background-color: var(--primary);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-flow: row;
+}
+
+li.coin {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+  font-size: 1.5rem;
+  align-items: flex-end;
+}
+
+li.coin:nth-child(4n),
+li.coin:nth-child(4n - 3),
+li.coin:nth-child(8n - 7) {
+  background-color: var(--secondary);
+}
+
+li.coin a {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+
+li.coin a span {
+  padding: 0.5rem 0;
+}
+
+/* Crypto page */
+.detail-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-container h2 {
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.detail-container p {
+  display: flex;
+  justify-content: center;
+  padding: 1.4rem;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.detail-container p:nth-child(even) {
+  background-color: var(--primary);
+}

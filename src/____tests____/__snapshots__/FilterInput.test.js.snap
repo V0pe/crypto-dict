@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="price-filter"
+>
+   Filter the Price of Coin: 
+  <input
+    id="price-range"
+    max="9999999999"
+    min="0"
+    name="price-range"
+    placeholder="0"
+    type="number"
+  />
+   USD($)
+</div>
+`;

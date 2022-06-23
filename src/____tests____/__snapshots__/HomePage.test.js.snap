@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<section>
+  <header
+    className="header"
+  >
+    <div>
+      <button
+        className="logoButton"
+        onClick={[Function]}
+        type="button"
+      >
+        <h1>
+          <img
+            alt="logo"
+            className="app-logo"
+            src="cryptocurrencies.png"
+          />
+          CRYPTO
+        </h1>
+      </button>
+    </div>
+    <h1>
+      Major Crypto Markets
+    </h1>
+  </header>
+  <div
+    className="price-filter"
+  >
+     Filter the Price of Coin: 
+    <input
+      id="price-range"
+      max="9999999999"
+      min="0"
+      name="price-range"
+      onChange={[Function]}
+      placeholder="0"
+      type="number"
+      value={0}
+    />
+     USD($)
+  </div>
+  <section>
+    <ul
+      className="coin-container"
+    />
+  </section>
+</section>
+`;
