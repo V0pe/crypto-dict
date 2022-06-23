@@ -19,7 +19,7 @@
 
 ## Recording
 
-[Checkout the recording](https://www.loom.com/share/36720bbfade74ac9b01182d836e15db1)
+[Checkout the recording](https://www.loom.com/share/8943e025ec0842fa96d186069afecb71)
 
 
 ## Getting Started
